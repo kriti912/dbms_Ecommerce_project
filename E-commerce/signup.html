@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMS Project</title>
+    <link rel = "stylesheet" href = "signup.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row" style="width: 100%; height: 100vh;">
+          <div class="col-2">
+            
+          </div>
+          <div class="col-8">
+            <div class = "cell">
+                <h1 style="padding-top: 10px;">Sign Up</h1>
+                <!-- form -->
+                <form id="form" method = "post" action="/Adduser" >
+                    
+                    <!-- first name -->
+                    <div class="form-group">
+                        <label for="fname" >First Name</label>
+                        <input type="text" id = "fname" placeholder="First Name" name= "fname"
+                            required minlength="3" maxlength="100">
+                    </div>
+                    <!-- last name -->
+                    <div class="form-group">
+                        <label for="lname" >Last Name</label>
+                        <input type="text" id = "lname" placeholder="Last Name" name= "lname"
+                            required minlength="3" maxlength="100">
+                    </div>
+                    <!-- phone number -->
+                    <div class="form-group">
+                        <label for="phone" >Phone Number</label>
+                        <input type="tel" id = "phone" placeholder="5555555555" name = "phone"
+                            required pattern="[0-9]{10}">
+                    </div>
+                    <!-- email -->
+                    <div class="form-group">
+                        <label for="email" >Full Email</label>
+                        <input type="email" id = "email" placeholder="email@address.com"
+                                required name = "email">
+                    </div>
+                    <!-- password -->
+                    <div class="form-group">
+                        <label for="pass">Password</label>
+                        <input type="pass" id = "password1" placeholder="Create Password(Min. 8 Characters)"
+                                required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$"
+                                title="Please include atleast 1 uppercase character, 1 lowercase character, and 1 number">
+                    </div>
+                    <!-- confirm password -->
+                    <div class="form-group">
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id = "password2" placeholder="Confirm Password" name = "password"
+                                required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+                    </div>
+                    <!-- submit button -->
+                    <button class="button1"> 
+                       Register
+                    </button>
+                </form>
+            </div>
+          </div>
+          <div class="col-2">
+            
+          </div>
+        </div>
+      </div>
+    
+    <script src = "script.js">  
+    </script>
+</body>
+</html>

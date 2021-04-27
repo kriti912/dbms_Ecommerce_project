@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Website</title>
+    <link rel="stylesheet" href = '/main.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="outer-row">
+        <div class="column1">
+            <nav class="navbar">
+                <div class="navbar-center">
+                    <div>
+                        <span class="nav-icon"  data-toggle="dropdown"  role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-bars" style="font-size: 1.5em; margin-left: 0px;"></i>
+                        </span>
+                        <div class="dropdown-menu" style=" background-color: rgba(87, 110, 110, 0.6); color: white;">
+                            <a class="dropdown-item" href="#section1" style="color: white;">Formal Wear</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#section2" style="color: white;">Casual Wear</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#section3" style="color: white;">Bottoms</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#section4" style="color: white;">Neck Wear</a>
+                            <div class="dropdown-divider"></div>
+
+                        </div>
+                    </div>
+                    <div class="cart-btn" >
+                        <button class="opening-cart-btn" onclick="on()">
+                        <span class="nav-icon" >
+                            <i class="fa fa-cart-plus"></i>
+                        </span>
+                    </button>
+                        <div class="cart-items">
+                            0
+                        </div>
+                    
+                        
+                    </div>
+                    
+                </div>
+            </nav>
+            <div class="main-column">
+                <section id="section1">
+                    <div class="main-card" >
+                        
+                        <div class="inner-row">
+                            <div class="col1 one" >
+                                    <div class="box">
+                                        <div class="inner-box">
+                                            <img class="d-block w-100" src="/assets/formal12.jfif" alt="Loading.." style="height: 100%;">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5 class="clothes-name">Top 1</h5>
+                                                <h6 class="clothes-price">Rs. 3000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                                <button class="adding-button">
+                                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                                <div class="col1 one"  >
+                                    <div class="box">
+                                        <div class="inner-box">
+                                            <img class="d-block w-100" src="/assets/formal27.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Top 2</h5>
+                                                <h6>Rs. 2000</h6>
+                                                </div>
+                                        </div>
+                                        
+                                            <div class="right-box">
+                                                
+                                                <div class="empty-box">
+
+                                                </div>
+                                                <div class="cart-box">
+                                                 <button class="adding-button">
+                                                     <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                                 </button>
+                                                </div>
+                                             </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col1 one"  >
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                            <img class="d-block w-100" src="/assets/formal23.jpg" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Top 3</h5>
+                                                <h6>Rs. 6700</h6>
+                                                </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 one"  >
+                                    <div class="box">
+                                        <div class="inner-box">
+                                            <img class="d-block w-100" src="/assets/formal14.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Top 4</h5>
+                                                <h6>Rs. 5500</h6>
+                                                </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                        </div>
+                            
+                        <div class="inner-row">
+                            <div class="col1 one" >
+                                <div class="box">
+                                    <div class="inner-box">
+                                        <img class="d-block w-100" src="/assets/formal13.jfif" alt="Loading.." style="height: 100%">
+                                    </div>
+                                </div>
+                                <div class="small-box">
+                                    <div class="detail-box">
+                                        <div class="clothes-details">
+                                            <h5>Top 5</h5>
+                                            <h6>Rs. 4000</h6>
+                                            </div>
+                                    </div>
+                                    <div class="right-box">
+                                                
+                                        <div class="empty-box">
+
+                                        </div>
+                                        <div class="cart-box">
+                                         <button class="adding-button">
+                                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                         </button>
+                                        </div>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="col1 one"  >
+                                <div class="box">
+                                    <div class="inner-box"style="margin-left: 25%;margin-right: 25%;">
+                                        <img class="d-block w-100" src="/assets/formal22.jpg" alt="Loading.." style="height: 100%">
+                                    </div>
+                                </div>
+                                <div class="small-box">
+                                    <div class="detail-box">
+                                        <div class="clothes-details">
+                                            <h5>Top 6</h5>
+                                            <h6>Rs. 3000</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-box">
+                                                
+                                        <div class="empty-box">
+
+                                        </div>
+                                        <div class="cart-box">
+                                         <button class="adding-button">
+                                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                         </button>
+                                        </div>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="col1 one"  >
+                                <div class="box">
+                                    <div class="inner-box">
+                                        <img class="d-block w-100" src="/assets/formal19.jpg" alt="Loading.." style="height: 100%">
+                                    </div>
+                                </div>
+                                <div class="small-box">
+                                    <div class="detail-box">
+                                        <div class="clothes-details">
+                                            <h5>Top 7</h5>
+                                            <h6>Rs. 2000</h6>
+                                            </div>
+                                    </div>
+                                    <div class="right-box">
+                                                
+                                        <div class="empty-box">
+
+                                        </div>
+                                        <div class="cart-box">
+                                         <button class="adding-button">
+                                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                         </button>
+                                        </div>
+                                     </div>
+                                </div>
+                            </div>
+                            <div class="col1 one"  >
+                                <div class="box">
+                                    <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                        <img class="d-block w-100" src="/assets/formal18.jfif" alt="Loading.." style="height: 100%">
+                                    </div>
+                                </div>
+                                <div class="small-box">
+                                    <div class="detail-box">
+                                        <div class="clothes-details">
+                                            <h5>Top 8</h5>
+                                            <h6>Rs. 1000</h6>
+                                            </div>
+                                    </div>
+                                    <div class="right-box">
+                                            
+                                        <div class="empty-box">
+
+                                        </div>
+                                        <div class="cart-box">
+                                         <button class="adding-button">
+                                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                         </button>
+                                        </div>
+                                     </div>
+                                </div>
+                            </div>
+                                
+                        </div>
+                    
+                    </div>
+                    
+                </section>
+                <section id="section2">
+                    <div class="main-card" >
+                        
+                        <div class="inner-row">
+                            <div class="col1 two"  >
+                                <div class="box">
+                                    <div class="inner-box">
+                                        <img class="d-block w-100" src="/assets/casual7.jfif" alt="Loading.." style="height: 100%">
+                                    </div>
+                                </div>
+                                <div class="small-box">
+                                    <div class="detail-box">
+                                        <div class="clothes-details">
+                                            <h5>Casual 1</h5>
+                                            <h6>Rs. 2200</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-box">
+                                                
+                                        <div class="empty-box">
+
+                                        </div>
+                                        <div class="cart-box">
+                                         <button class="adding-button">
+                                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                         </button>
+                                        </div>
+                                     </div>
+                                </div>
+                            </div>
+                                <div class="col1 two"  >
+                                    <div class="box">
+                                        <div class="inner-box">
+                                            <img class="d-block w-100" src="/assets/casual9.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Casual 2</h5>
+                                                <h6>Rs. 4500</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 two" >
+                                    <div class="box">
+                                        <div class="inner-box">
+                                            <img class="d-block w-100" src="/assets/casual10.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Casual 3</h5>
+                                                <h6>Rs. 3700</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 two"  >
+                                    <div class="box">
+                                        <div class="inner-box" >
+                                            <img class="d-block w-100" src="/assets/casual11.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Casual 4</h5>
+                                                <h6>Rs. 2600</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                    
+                                            <div class="empty-box">
+    
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                            
+                        <div class="inner-row">
+                                <div class="col1 two ">
+                                    
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                            <img class="d-block w-100" src="/assets/casual16.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Casual 5</h5>
+                                                <h6>Rs. 2100</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 two">
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                            <img class="d-block w-100" src="/assets/casual13.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Casual 6</h5>
+                                                <h6>Rs. 4200</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 two">
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                            <img class="d-block w-100" src="/assets/casual15.jfif" alt="Loading.." style="height: 100%;">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                            <h5>Casual 7</h5>
+                                            <h6>Rs. 3999</h6>
+                                        </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 two"  >
+                                    <div class="box">
+                                        <div class="inner-box">
+                                            <img class="d-block w-100" src="/assets/casual12.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Casual 8</h5>
+                                                <h6>Rs. 1200</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                    
+                                            <div class="empty-box">
+    
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </section>
+                <section id="section3">
+                    <div class="main-card" >
+                        
+                        <div class="inner-row">
+                            <div class="col1 three"  >
+                                <div class="box">
+                                    <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                        <img class="d-block w-100" src="/assets/bottom11.jfif" alt="Loading.." style="height: 100%; ">
+                                    </div>
+                                </div>
+                                <div class="small-box">
+                                    <div class="detail-box">
+                                        <div class="clothes-details">
+                                            <h5>Bottom 1</h5>
+                                            <h6>Rs. 1900</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-box">
+                                            
+                                        <div class="empty-box">
+
+                                        </div>
+                                        <div class="cart-box">
+                                         <button class="adding-button">
+                                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                         </button>
+                                        </div>
+                                     </div>
+                                </div>
+                                </div>
+                                <div class="col1 three"  >
+                                    <div class="box">
+                                        <div class="inner-box">
+                                            <img class="d-block w-100" src="/assets/bottom7.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Bottom 2 </h5>
+                                                <h6>Rs. 2300</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 three"  >
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                            <img class="d-block w-100" src="/assets/bottom9.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Bottom 3 </h5>
+                                                <h6>Rs. 2500</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 three"  >
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                            <img class="d-block w-100" src="/assets/bottom5.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Bottom 4</h5>
+                                                <h6>Rs. 3000</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                    
+                                            <div class="empty-box">
+    
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                            
+                        <div class="inner-row">
+                                <div class="col1 three">
+                                    <div class="box">
+                                        <div class="inner-box" >
+                                            <img class="d-block w-100" src="/assets/bottom12.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Bottom 5</h5>
+                                                <h6>Rs. 2900</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 three">
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 30%;margin-right: 30%;">
+                                            <img class="d-block w-100" src="/assets/bottom13.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Bottom 6</h5>
+                                                <h6>Rs. 1290</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 three">
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                            <img class="d-block w-100" src="/assets/bottom14.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Bottom 7</h5>
+                                                <h6>Rs. 3800</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 three"  >
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                            <img class="d-block w-100" src="/assets/bottom15.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Bottom 8</h5>
+                                                <h6>Rs. 3199</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                    
+                                            <div class="empty-box">
+    
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </section>
+                <section id="section4">
+                    <div class="main-card" >
+                        
+                        <div class="inner-row">
+                            <div class="col1 four"  >
+                                <div class="box">
+                                    <div class="inner-box">
+                                        <img class="d-block w-100" src="/assets/neck9.jfif" alt="Loading.." style="height: 100%">
+                                    </div>
+                                </div>
+                                <div class="small-box">
+                                    <div class="detail-box">
+                                        <div class="clothes-details">
+                                            <h5>Neck Wear 1</h5>
+                                            <h6>Rs. 1500</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-box">
+                                            
+                                        <div class="empty-box">
+
+                                        </div>
+                                        <div class="cart-box">
+                                         <button class="adding-button">
+                                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                         </button>
+                                        </div>
+                                     </div>
+                                </div>
+                            </div>
+                                <div class="col1 four"  >
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 10%; margin-right: 10%;">
+                                            <img class="d-block w-100" src="/assets/neck3.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Neck Wear 2</h5>
+                                                <h6>Rs. 3330</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 four"  >
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                            <img class="d-block w-100" src="/assets/neck7.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Neck Wear 3</h5>
+                                                <h6>Rs. 2100</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col1 four"  >
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                            <img class="d-block w-100" src="/assets/neck5.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Neck Wear 4</h5>
+                                                <h6>Rs. 2390</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                    
+                                            <div class="empty-box">
+    
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                            
+                        <div class="inner-row">
+                            <div class="col1 four"  >
+                                <div class="box">
+                                    <div class="inner-box">
+                                        <img class="d-block w-100" src="/assets/neck6.jfif" alt="Loading.." style="height: 100%">
+                                    </div>
+                                </div>
+                                <div class="small-box">
+                                    <div class="detail-box">
+                                        <div class="clothes-details">
+                                            <h5>Neck Wear 5</h5>
+                                            <h6>Rs. 999</h6>
+                                        </div>
+                                    </div>
+                                    <div class="right-box">
+                                            
+                                        <div class="empty-box">
+
+                                        </div>
+                                        <div class="cart-box">
+                                         <button class="adding-button">
+                                             <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                         </button>
+                                        </div>
+                                     </div>
+                                </div>
+                            </div>
+                                <div class="col1 four"  >
+                                    <div class="box">
+                                        <div class="inner-box">
+                                            <img class="d-block w-100" src="/assets/neck8.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Neck Wear 6 </h5>
+                                                <h6>Rs. 2110</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div class="col1 four"  >
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                            <img class="d-block w-100" src="/assets/neck11.png" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Neck Wear 7</h5>
+                                                <h6>Rs. 1080</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                
+                                            <div class="empty-box">
+
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col1 four">
+                                    <div class="box">
+                                        <div class="inner-box" style="margin-left: 25%;margin-right: 25%;">
+                                            <img class="d-block w-100" src="/assets/neck10.jfif" alt="Loading.." style="height: 100%">
+                                        </div>
+                                    </div>
+                                    <div class="small-box">
+                                        <div class="detail-box">
+                                            <div class="clothes-details">
+                                                <h5>Neck Wear 8 </h5>
+                                                <h6>Rs. 2690</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-box">
+                                                    
+                                            <div class="empty-box">
+    
+                                            </div>
+                                            <div class="cart-box">
+                                             <button class="adding-button">
+                                                 <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                             </button>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+            <!-- <div class="control-row">
+                
+            </div> -->
+        </div>
+            <!-- <div class="column2">
+                <div class="row1">
+                    <div class="card1">
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="card2">
+                    
+                    
+                    </div>
+                </div>
+            </div> -->
+    </div>
+    <div class="cart-overlay" id = "cart-overlay" >
+        <div class="cart">
+            <span class="close-cart" onclick = "off()">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2 class="my_cart">MY CART</h2>
+            <div class="cart-content">
+                <!-- cart item -->
+                <!-- <div class="cart-item">
+                    <img src="bcdb2b79870496dc944df35490db10b1.jpg" alt="items" style="width: 80%; height: 100%;">
+                    <div>
+                        <h4>Jeans</h4>
+                        <h5>Rs. 5000</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="bcdb2b79870496dc944df35490db10b1.jpg" alt="items" style="width: 80%; height: 100%;">
+                    <div>
+                        <h4>Jeans</h4>
+                        <h5>Rs. 5000</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="bcdb2b79870496dc944df35490db10b1.jpg" alt="items" style="width: 80%; height: 100%;">
+                    <div>
+                        <h4>Jeans</h4>
+                        <h5>Rs. 5000</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="bcdb2b79870496dc944df35490db10b1.jpg" alt="items" style="width: 80%; height: 100%;">
+                    <div>
+                        <h4>Jeans</h4>
+                        <h5>Rs. 5000</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="bcdb2b79870496dc944df35490db10b1.jpg" alt="items" style="width: 80%; height: 100%;">
+                    <div>
+                        <h4>Jeans</h4>
+                        <h5>Rs. 5000</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="bcdb2b79870496dc944df35490db10b1.jpg" alt="items" style="width: 80%; height: 100%;">
+                    <div>
+                        <h4>Jeans</h4>
+                        <h5>Rs. 5000</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="bcdb2b79870496dc944df35490db10b1.jpg" alt="items" style="width: 80%; height: 100%;">
+                    <div>
+                        <h4>Jeans</h4>
+                        <h5>Rs. 5000</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="bcdb2b79870496dc944df35490db10b1.jpg" alt="items" style="width: 80%; height: 100%;">
+                    <div>
+                        <h4>Jeans</h4>
+                        <h5>Rs. 5000</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="bcdb2b79870496dc944df35490db10b1.jpg" alt="items" style="width: 80%; height: 100%;">
+                    <div>
+                        <h4>Jeans</h4>
+                        <h5>Rs. 5000</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="bcdb2b79870496dc944df35490db10b1.jpg" alt="items" style="width: 80%; height: 100%;">
+                    <div>
+                        <h4>Jeans</h4>
+                        <h5>Rs. 5000</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="bcdb2b79870496dc944df35490db10b1.jpg" alt="items" style="width: 80%; height: 100%;">
+                    <div>
+                        <h4>Jeans</h4>
+                        <h5>Rs. 5000</h5>
+                        <span class="remove-item">Remove</span>
+                    </div>
+                </div> -->
+                
+                <!-- end items -->
+            <table >
+                <col style="width:20%">
+                <col style="width:14%">
+                <col style="width:14%">
+                <col style="width:14%">
+                <col style="width:14%">
+                <col style="width:14%">
+                <thead>
+                <tr>
+                    <th>ITEM<hr></th>
+                    
+                    <th>ITEM-NAME <hr></th>
+                    
+                    <th>PRICE<hr></th>
+                    
+                    <th>QUANTITY<hr></th>
+                    
+                    <th>TOTAL<hr></th>
+                    
+                    <th style="color: transparent;">Discard<hr></th>
+                </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                        <td class="image-size"><img src="formal12.jfif" alt="items"></td>
+                        <td><h5>Top1</h5></td>
+                        <td class="item_price"><h5>Rs. 3000</h5></td>
+                        <td><input type="number" value="1" class="input_quantity" placeholder="1" min = "1"><h5></h5></td>
+                        <td class="total_price"><h5>Rs. 3000</h5></td>
+                        <td><button class="remove_item">Remove</button></td>                    
+                    </tr> -->
+                </tbody>
+                <tr>
+                    <td class="image-size"></td>
+                    <td colspan="2" style="color:rgb(97, 95, 93)"><H3>GRAND - TOTAL </H3></td>
+                    <td></td>                    
+                    <td class="grand-total"><h3>Rs. 0</h3></td>
+                    <td></td>                    
+                </tr>
+                <!-- <tr>
+                    <td class="image-size"><img src="formal19.jpg" alt="items"></td>
+                    <td>Top1</td>
+                    <td>Rs. 3000</td>
+                    <td><input type="number" min="0" class ="input_quantity"></td>
+                    <td>Rs. 3000</td> 
+                    <td><button class="remove_item">Remove</button></td>                      
+                </tr>
+                <tr>
+                    <td class="image-size"><img src="formal12.jfif" alt="items"></td>
+                    <td>Top1</td>
+                    <td>Rs. 3000</td>
+                    <td><input type="number" min="0" class="input_quantity"></td>
+                    <td>Rs. 3000</td> 
+                    <td><button class="remove_item">Remove</button></td>                      
+                </tr> -->
+            </table>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="/main.js">
+     
+    </script>
+</body>
+</html>
